@@ -1,0 +1,32 @@
+body {
+    background-color:#5cc7fc;
+}
+.shape {
+    height: 270px;
+    width: 500px;
+    margin-left: auto;
+    margin-right: auto;
+    background-color: #bb8adc;
+    border: #9a28cf solid 5px;
+}
+h1 {
+    text-align: center;
+    padding-top: 5%;
+    color: #0a0a0a;
+    font-family: "Times New Roman", "Times New Roman", cursive;
+}
+li {
+    list-style: center;
+    text-align: center;
+    font-family: "SansSerif", "SansSerif", cursive;
+    color: #0a0a0a;
+}
+.shape1 {
+    height: 270px;
+    width: 500px;
+    margin-left: auto;
+    margin-right: auto;
+    margin-top: 10%;
+    background-color:#d596ff;
+    border: #8b2fb5 solid 5px;
+}
