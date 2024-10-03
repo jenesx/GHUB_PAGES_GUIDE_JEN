@@ -1,0 +1,31 @@
+INSERT INTO houses (house_name, location, capacity, status) VALUES
+('Lapuz Villa', 'Beachside', 8, 'Available'),
+('Narsolis Mountain Retreat', 'Hills', 5, 'Occupied'),
+('Jenes Comfy Loft', 'Downtown', 3, 'Available'),
+('Solis Country Cottage', 'Countryside', 4, 'Under Maintenance');
+
+INSERT INTO customers (name, email, phone, address) VALUES
+('Chazeee Montefalco', 'chazeeemontefalco@example.com', '09123456789', '123 Pola Street'),
+('Rifen Narsolis', 'rifennarsolis@example.com', '09151515150', '456 Ridge Street'),
+('Jinx Zaun', 'jinxzaun@example.com', '09112233440', '789 Pine Avenue'),
+('Vi Piltover', 'vipiltover@example.com', '09556677889', '010 Maple Lane');
+
+INSERT INTO reservations (house_id, customer_id, reservation_date, start_date, end_date,
+special_requests) VALUES
+(1, 1, '2024-09-01', '2024-09-10', '2024-09-15', 'Extra pillows'),
+(2, 2, '2024-09-02', '2024-09-12', '2024-09-18', 'Late check-out'),
+(3, 3, '2024-09-03', '2024-09-14', '2024-09-20', 'Beef meals'),
+(4, 4, '2024-09-04', '2024-09-16', '2024-09-22', 'Early check-in');
+
+INSERT INTO payments (reservation_id, amount, payment_date, payment_method,
+transaction_id) VALUES
+(1, 1500.00, '2024-09-01', 'Credit Card', 'TXN123456'),
+(2, 2000.00, '2024-09-02', 'PayPal', 'TXN234567'),
+(3, 1800.00, '2024-09-03', 'Bank Transfer', 'TXN345678'),
+(4, 2200.00, '2024-09-04', 'Credit Card', 'TXN456789');
+
+INSERT INTO staff (name, role, contact_info, hire_date, salary) VALUES
+('Silco Z', 'Manager', 'silcoZ@example.com', '2023-01-15', 50000.00),
+('Vander Warwick', 'Chef', 'vanderwarwick@example.com', '2023-02-20', 40000.00),
+('Caitlyn Kiramman', 'Housekeeper', 'caitlynkiramman@example.com', '2023-03-25', 30000.00),
+('Ekko Z', 'Receptionist', 'ekkoZ@example.com', '2023-04-30', 35000.00);
